@@ -1,0 +1,13 @@
+name: PlayerPrimePlugin
+version: '${project.version}'
+main: fr.av3nirr.playerprimeplugin.PlayerPrimePlugin
+api-version: "1.20"
+commands:
+  prime:
+    description: The main plugin command
+    usage: §c/prime <add/remove> <player>
+
+permissions:
+  playerprimeplugin.removeprime:
+    description: Allow player to remove the prime on a player
+    default: op
